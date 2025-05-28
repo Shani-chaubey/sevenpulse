@@ -4331,3 +4331,8 @@ textarea {
   color: #fff;
   border-color: #fff;
 }
+
+.logo-center{
+    align-items: center;
+    display: flex
+}
