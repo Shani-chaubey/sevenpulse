@@ -4360,3 +4360,45 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.enquiry-btn {
+  display: block;
+  position: fixed;
+  top: 50%;
+  right: -45px;
+  transform: rotate(270deg);
+  background: linear-gradient(45deg, #61685f, #0c6c00);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 9999;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.enquiry-btn:hover {
+  background-color: #0c6c00;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 799px) {
+  .enquiry-btn {
+    display: none;
+  }
+  .text-rotate > .wrap {
+    font-size: 15px;
+  }
+}
+
+.modal-title{
+    color: #006c18;
+    font-weight: bold;
+    font-family: 'Atlassian Sans';
+    font-size: 20px;
+}
+
+

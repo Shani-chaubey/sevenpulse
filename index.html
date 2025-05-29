@@ -162,11 +162,60 @@
               alt=" Seven Acres Realty">
             <span class="text-rotate"
               data-rotate='["It’s your space.", "It’s your pace.", "It’s a lifestyle worth living."]'
-              data-period="2000"></span>
+              data-period="1000"></span>
           </div>
         </div>
-
       </section>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered " role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Connect with us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-line">
+                <form role="form" method="post" id="contactForm" name="contact-form"
+                  data-toggle="validator" novalidate="true">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name"
+                      placeholder="Your Name" required
+                      data-error="Please enter your Email">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" class="form-control" id="number" name="number"
+                      placeholder="Mobile Number" required
+                      data-error="Please enter your message subject">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Select Property Type</option>
+                      <option value="Residential">Residential</option>
+                      <option value="Commercial">Commercial</option>
+                    </select>
+                  </div>
+                  <div class="form-submit">
+                    <button type="submit" class="btn btn-common disabled"
+                      id="form-submit"
+                      style="pointer-events: all; cursor: pointer; width: 100%; opacity: 1;"><i
+                        class="fa fa-paper-plane" aria-hidden="true"></i> Send
+                      Message</button>
+                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
 
       <!-- Featured Section Start -->
       <section class="featured-bg section-padding" id="about">
@@ -249,15 +298,19 @@
                       </div>
                     </div>
                     <div class="item-body">
-                      <h3 class="property-title"><a href="property.html">Migsun
-                          Alpha Central</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>ALPHA
-                        II, GREATER NOIDA</div>
+                      <h3 class="property-title"><a href="property.html">JLPL Falcon View</a></h3>
+                      <div class="adderess"><i class="lni-map-marker"></i>Sector 66A, Mohali</div>
                       <div class="pricin-list">
                         <div class="property-price">
-                          <span>₹39.00L - ₹3.00Cr</span>
+                          <span>₹2.48CR - ₹5.57Cr</span>
                         </div>
-                        <p><span>Retail Shop, Food Court</span></p>
+                        <p><span>3, 4, 5 BHK Apartments</span></p>
+                      </div>
+                      <div class="form-submit" style="margin-top: 10px;">
+                        <button type="button" class="btn btn-common"
+                          style="pointer-events: all; cursor: pointer; width: 100%; opacity: 1;"  data-toggle="modal" data-target="#exampleModal"><i
+                            class="fa fa-paper-plane" aria-hidden="true"></i>Enquire Now</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
                     </div>
                   </div>
@@ -278,15 +331,19 @@
                       </div>
                     </div>
                     <div class="item-body">
-                      <h3 class="property-title"><a href="property.html">Godrej
-                          Majesty</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>Sector
-                        12, Greater Noida</div>
+                      <h3 class="property-title"><a href="#">Uptown Skylla</a></h3>
+                      <div class="adderess"><i class="lni-map-marker"></i>Aerocity, Mohali</div>
                       <div class="pricin-list">
                         <div class="property-price">
-                          <span>₹2.91Cr - ₹4.85Cr</span>
+                          <span>₹93.18Lac - ₹2.08Cr</span>
                         </div>
-                        <p><span>3BHK & 4BHK Apartments</span></p>
+                        <p><span>2, 3, 4 BHK Apartments</span></p>
+                      </div>
+                      <div class="form-submit" style="margin-top: 10px;">
+                        <button type="button" class="btn btn-common"
+                          style="pointer-events: all; cursor: pointer; width: 100%; opacity: 1;"  data-toggle="modal" data-target="#exampleModal"><i
+                            class="fa fa-paper-plane" aria-hidden="true"></i>Enquire Now</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
                     </div>
                   </div>
@@ -309,102 +366,19 @@
                     </div>
                     <div class="item-body">
                       <h3 class="property-title"><a
-                          href="property.html">Dasnac Yuva</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>Sector
-                        124, Noida</div>
+                          href="#">Atlantis Heights</a></h3>
+                      <div class="adderess"><i class="lni-map-marker"></i>Zirakpur, Mohali</div>
                       <div class="pricin-list">
                         <div class="property-price">
-                          <span>₹90.00L - ₹1.90Cr</span>
+                          <span>₹1.22Cr - ₹1.90Cr</span>
                         </div>
-                        <p>Retail Shop, Studio Apartments</p>
+                        <p>3 BHK Apartments</p>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="property-main">
-                <div class="property-wrap">
-                  <div class="property-item">
-                    <div class="item-thumb">
-                      <a class="hover-effect" href="#">
-                        <img class="img-fluid"
-                          src="assets/img/projects/4.jpg" alt>
-                      </a>
-                      <div class="label-inner">
-                        <span class="label-status label bg-red">For Sale</span>
-                      </div>
-                    </div>
-                    <div class="item-body">
-                      <h3 class="property-title"><a href="property.html">Aspire
-                          Silicon City (Phase - IV)</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>Sector
-                        76, Noida</div>
-                      <div class="pricin-list">
-                        <div class="property-price">
-                          <span>₹3.62Cr - ₹4.35Cr</span>
-                        </div>
-                        <p>3BHK & 4BHK Apartments</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="property-main">
-                <div class="property-wrap">
-                  <div class="property-item">
-                    <div class="item-thumb">
-                      <a class="hover-effect" href="#">
-                        <img class="img-fluid"
-                          src="assets/img/projects/5.jpg" alt>
-                      </a>
-                      <div class="label-inner">
-                        <span class="label-status label bg-yellow">New
-                          Launch</span>
-                      </div>
-                    </div>
-                    <div class="item-body">
-                      <h3 class="property-title"><a href="property.html">Eternia
-                          Residences</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>Tech
-                        Zone IV, Greater Noida</div>
-                      <div class="pricin-list">
-                        <div class="property-price">
-                          <span>₹1.72Cr - ₹2.34Cr</span>
-                        </div>
-                        <p>3 & 4 BHK Apartments</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-              <div class="property-main">
-                <div class="property-wrap">
-                  <div class="property-item">
-                    <div class="item-thumb">
-                      <a class="hover-effect" href="#">
-                        <img class="img-fluid"
-                          src="assets/img/projects/6.jpg" alt />
-                      </a>
-                      <div class="label-inner">
-                        <span class="label-status label bg-red">For Sale</span>
-                      </div>
-                    </div>
-                    <div class="item-body">
-                      <h3 class="property-title"><a href="property.html">Godrej
-                          Riverine</a></h3>
-                      <div class="adderess"><i class="lni-map-marker"></i>Sector
-                        44, Noida</div>
-                      <div class="pricin-list">
-                        <div class="property-price">
-                          <span>₹8.66Cr - ₹12.71Cr</span>
-                        </div>
-                        <p>3 & 4 BHK Apartments</p>
+                      <div class="form-submit" style="margin-top: 10px;">
+                        <button type="button" class="btn btn-common"
+                          style="pointer-events: all; cursor: pointer; width: 100%; opacity: 1;"  data-toggle="modal" data-target="#exampleModal"><i
+                            class="fa fa-paper-plane" aria-hidden="true"></i>Enquire Now</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
                       </div>
                     </div>
                   </div>
@@ -713,6 +687,11 @@
         </div>
       </div>
     </section>
+
+    <!-- Go to Top Link -->
+    <button type="button" data-toggle="modal" data-target="#exampleModal" class="enquiry-btn">
+      ✉ Send Enquiry
+    </button>
 
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
