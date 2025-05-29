@@ -3609,7 +3609,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .contact-right-area .contact-right .contact-icon {
-  background: #0dcdbd;
+  background: #0c6c00;
   color: #fff;
   border-radius: 4px;
   font-size: 20px;
@@ -4334,5 +4334,29 @@ textarea {
 
 .logo-center{
     align-items: center;
-    display: flex
+    display: flex;
+    justify-content: center;
+}
+
+.join-team img{
+  width: 100%;
+}
+
+.img-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-rotate > .wrap {
+  border-right: 0.08em solid #0c6c00;
+  font-size: 50px;
+  color: #fff;
+}
+
+.text-rotate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
